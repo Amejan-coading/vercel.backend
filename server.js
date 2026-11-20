@@ -12,7 +12,9 @@ const app = express();
 const port = process.env.PORT;
 
 // MIDDLEWARES
-app.use(cors());
+app.use(cors({
+    origin:["http://localhost:4000","https://vercel-frontend-five-chi.vercel.app/"]
+}));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
