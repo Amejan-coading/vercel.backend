@@ -15,7 +15,8 @@ const port = process.env.PORT;
 app.use(cors({
     origin:[
         "http://localhost:5173",
-        "https://vercel-frontend-4zu2a0zwu-amazing-team1.vercel.app"
+        
+        "https://vercel-frontend-i5qp5qipi-amazing-team1.vercel.app"
     ],
     credentials: true
 }));
