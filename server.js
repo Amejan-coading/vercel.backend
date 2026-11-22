@@ -13,7 +13,10 @@ const port = process.env.PORT;
 
 // MIDDLEWARES
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:[
+        "http://localhost:5173",
+        "https://vercel-frontend-4zu2a0zwu-amazing-team1.vercel.app"
+    ],
     credentials: true
 }));
 app.use(express.json());
