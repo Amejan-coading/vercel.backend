@@ -16,7 +16,7 @@ app.use(cors({
     origin:[
         "http://localhost:5173",
         
-        "https://vercel-frontend-i5qp5qipi-amazing-team1.vercel.app"
+        "https://vercel-frontend-76jgxdjoc-amazing-team1.vercel.app/"
     ],
     credentials: true
 }));
