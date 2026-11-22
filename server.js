@@ -13,7 +13,8 @@ const port = process.env.PORT;
 
 // MIDDLEWARES
 app.use(cors({
-    origin:["http://localhost:4000","https://vercel-frontend-five-chi.vercel.app/"]
+    origin:"http://localhost:5173",
+    credentials: true
 }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
